@@ -1,4 +1,4 @@
-# Model of students balance change
+# Students balance change modeling
 
 Our task is to model the change in the balance of students. Balance is the number of lessons each student has.
 To check if everything is right with our data and to make a list of hypotheses and questions, 
