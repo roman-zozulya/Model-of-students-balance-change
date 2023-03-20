@@ -1,0 +1,6 @@
+1. Analyzing the balances of the school, we can notice a significant increase in the dynamics of balances in the autumn months from September 1 until mid-November. The peak of growth in the activity of replenishing balances just falls on the second half of November, which coincides with the period of massive Black Friday discounts. Then such an increase falls on the last days of the outgoing year, which indicates New Year's discounts.
+
+2. Analyzing the dynamics of conducting classes and, write-offs from the balance sheets, we can observe a decrease in the number of classes in the summer months. Skyeng has consistently held 20 to 60 lessons per day throughout the summer period of 2016. The increase in the number of classes begins in the autumn months, when the school conducts from 40 to 110 classes per day. This suggests that students have holidays, and for older student groups, the season of vacations begins.
+
+3. Looking at the calendar for 2016, we see that classes are most often held on Thursdays and Wednesdays, and Mondays. Less busy on Sundays and Saturdays.
+At the end of the year, before the New Year holidays, there is a slight decrease in growth dynamics, which indicates the desire of students to close their courses before the end of the year.
