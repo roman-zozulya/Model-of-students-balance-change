@@ -1,7 +1,3 @@
-/*Step 1
-Find out the first successful transaction date for each student. 
-Starting from this date, we will collect the balance of their classes.
-*/
 with first_payments as
     (SELECT "user_id", 
         MIN(transaction_datetime::date) as first_payment_date
@@ -105,11 +101,11 @@ balances as
 Let's see how the total number of classes changed on the students balance.
 */
 SELECT calendar_dates as "date", 
-    SUM(transaction_balance_change) as sum_transaction_balance_change, 
-    SUM(transaction_balance_change_cumsum) as sum_transaction_balance_change_cumsum, 
-    SUM(classes) as sum_classes, 
-    SUM(classes_cumsum) as sum_classes_cumsum, 
-    SUM(balance) as sum_balance 
+    SUM(transaction_balance_change) as transactions_balance_replenishment, 
+    SUM(transaction_balance_change_cumsum) as classes_balance_replenishment, 
+    SUM(classes) as classes_completion, 
+    SUM(classes_cumsum) as classes_balance_writeoffs, 
+    SUM(balance) as classes_balance 
 FROM balances 
 GROUP BY 1
 ORDER BY 1
